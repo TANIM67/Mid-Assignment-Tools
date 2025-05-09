@@ -59,6 +59,7 @@ header{
     padding: 0px 100px 0px 100px;
 }
 #text1{
+    
     position: static;
     width: 498px;
     height: 112px;
@@ -70,9 +71,29 @@ header{
     gap: 35;
     padding: 0px;
 }
-#consultation{
+h1{
     position: static;
-    width: 264px;
+    width: 531px;
+    height: 231px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35;
+    padding: 0px;
+    
+}
+#consultation{
+    color: rgb(255, 255, 255);
+font-family: Space Grotesk;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+    position: static;
+    width: 250px;
     height: 68px;
     /* Auto layout */
     display: flex;
@@ -89,4 +110,384 @@ header{
 
     color: white;
     background: rgb(25, 26, 35);
+}
+#logotypes{
+    position: static;
+    width: 1440px;
+    height: 48px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 100px 0px 100px;
+    flex: none;
+order: 2;
+flex-grow: 0;
+margin: 70px 0px;
+}
+
+#heading-and-subheading{
+    position: absolute;
+    width: 1440px;
+    height: 51px;
+    left: 0;
+    top: 971px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30;
+    padding: 0px 100px 0px 100px;
+}
+
+#service{
+    position: static;
+    width: 100px;
+    height: 51px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px 7px 0px 7px;
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#par1{
+    position: static;
+    width: 580px;
+    height: 46px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40;
+    padding: 0px 100px 0px 100px;
+
+    
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#card-section-1{
+    position: static;
+    width: 1440px;
+    height: 310px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40;
+    padding: 0px 10px 0px 10px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 40px 0px;
+}
+
+#card1{
+    position: static;
+    width: 600px;
+    height: 310px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    /* Dark */
+    border: 1px solid rgb(25, 26, 35);
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px rgb(25, 26, 35);
+    /* Grey */
+    background: rgb(243, 243, 243);
+}
+
+#se
+{
+    /* Label (Heading) */
+    position: static;
+    width: 207px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+    padding: 0px 7px 0px 7px;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    background-color: greenyellow;
+    
+    border-radius: 10px;
+    border-style: none;
+}
+
+#headlink1{
+    position: static;
+    width: 221px;
+    height: 210px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 93;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+
+#card2{
+    position: static;
+    width: 600px;
+    height: 310px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 40px;
+    box-sizing: border-box;
+    /* Dark */
+    border: 1px solid rgb(25, 26, 35);
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px rgb(25, 26, 35);
+    /* Green */
+    background: rgb(185, 255, 102);
+}
+
+#ppc{
+    position: static;
+    width: 195px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px 7px 0px 7px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 10px;
+    border-style: none;
+}
+#PPC{
+    position: static;
+    width: 164px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    padding: 0px 7px 0px 7px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 10px;
+    border-style: none;
+}
+#headlink2{
+    position: static;
+    width: 209px;
+    height: 210px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 93;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+#card-section-2{
+    position: static;
+    width: 1440px;
+    height: 310px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40;
+    padding: 0px 10px 0px 10px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 40px 0px;
+}
+
+#card3{
+    position: static;
+    width: 600px;
+    height: 310px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    /* Dark */
+    border: 1px solid rgb(25, 26, 35);
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px rgb(25, 26, 35);
+    /* Dark */
+    background: rgb(25, 26, 35);
+}
+
+#headlink3{
+    position: static;
+    width: 197px;
+    height: 210px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 93;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+#ssm{
+    position: static;
+    width: 183px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px 7px 0px 7px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#SSM{
+    position: static;
+    width: 147px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px 7px 0px 7px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 10px;
+    border-style: none;
 }
