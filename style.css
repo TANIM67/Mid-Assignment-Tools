@@ -1,0 +1,92 @@
+header{
+    position: static;
+    width: 1440px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+
+    
+}
+#star{
+    position: relative;
+    left:5px;
+    height:35px;
+    width:35px;
+    
+    background-image: url("images/star.png");
+    background-size: cover;
+}
+#logo{
+    position: relative;
+    left: 25px;
+    height: 28px;
+    width: 171px;
+    font-size: 30px;
+}
+#options{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    margin-right: 50px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+#req
+{
+    width: 231px;
+    height: 40px;
+    border-radius: 14px;
+    border: 1px solid rgb(25, 26, 35);
+    background-color: aliceblue;
+}
+#box1{
+    position: static;
+    width: 1440px;
+    height: 515px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 100px 0px 100px;
+}
+#text1{
+    position: static;
+    width: 498px;
+    height: 112px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35;
+    padding: 0px;
+}
+#consultation{
+    position: static;
+    width: 264px;
+    height: 68px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 20px 35px 20px 35px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 35px 0px;
+    border-radius: 14px;
+
+    color: white;
+    background: rgb(25, 26, 35);
+}
