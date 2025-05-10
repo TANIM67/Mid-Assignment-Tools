@@ -167,6 +167,7 @@ margin: 70px 0px;
     line-height: 51px;
     letter-spacing: 0%;
     text-align: center;
+    border-radius: 10px;
 }
 
 #par1{
@@ -496,4 +497,445 @@ margin: 70px 0px;
     text-align: left;
     border-radius: 10px;
     border-style: none;
+}
+
+#card4{
+    position: static;
+    width: 600px;
+    height: 310px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 40px;
+    box-sizing: border-box;
+    /* Dark */
+    border: 1px solid rgb(25, 26, 35);
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px rgb(25, 26, 35);
+    /* Grey */
+    background: rgb(243, 243, 243);
+}
+
+#headlink4{
+    position: static;
+    width: 209px;
+    height: 210px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 93;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+#email{
+    position: static;
+    width: 82px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px 7px 0px 7px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 10px;
+    border-style: none;
+    background-color: greenyellow;
+}
+#mrk{
+    position: static;
+    width: 164px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    padding: 0px 7px 0px 7px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 10px;
+    border-style: none;
+    background-color: greenyellow;
+}
+
+#card-section-3{
+    position: static;
+    width: 1440px;
+    height: 310px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40;
+    padding: 0px 10px 0px 10px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 40px 0px;
+}
+
+#card5{
+    position: static;
+    width: 600px;
+    height: 310px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    /* Dark */
+    border: 1px solid rgb(25, 26, 35);
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px rgb(25, 26, 35);
+    /* Dark */
+    background: greenyellow;
+}
+
+#headlink5{
+    position: static;
+    width: 197px;
+    height: 210px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 93;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+#content{
+    position: static;
+    width: 147px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px 7px 0px 7px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#creation{
+    position: static;
+    width: 147px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px 7px 0px 7px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#card6{
+    position: static;
+    width: 600px;
+    height: 310px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 40px;
+    box-sizing: border-box;
+/* Dark */
+    border: 1px solid rgb(25, 26, 35);
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px rgb(25, 26, 35);
+    /* Dark */
+    background: rgb(25, 26, 35);
+}
+#headlink6{
+    position: static;
+    width: 209px;
+    height: 210px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 93;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+#analytics{
+    position: static;
+    width: 199px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px 7px 0px 7px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 10px;
+    border-style: none;
+    background-color: greenyellow;
+}
+#tracking{
+    position: static;
+    width: 124px;
+    height: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    padding: 0px 7px 0px 7px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 10px;
+    border-style: none;
+    background-color: greenyellow;
+}
+
+#T1{
+    position: static;
+width: 500px;
+height: 38px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 26;
+padding: 0px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 26px 0px;
+color: rgb(0, 0, 0);
+font-family: Space Grotesk;
+font-size: 30px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+#button2{
+    position: static;
+    width: 288px;
+    height: 68px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 20px 35px 20px 35px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 26px 0px;
+    border-radius: 14px;
+    /* Dark */
+    background: rgb(25, 26, 35);
+    color: rgb(255, 255, 255);
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card{
+    position: static;
+    width: 1400px;
+    height: 310px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40;
+    padding: 0px 10px 0px 10px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 40px 0px;
+    border-radius: 45px;
+    /* Grey */
+    background: rgb(243, 243, 243);
+}
+#text-and-button{
+    width: 300px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px;
+    padding-top: 50px;
+}
+
+#heading-and-subheading2{
+    position: absolute;
+    width: 1440px;
+    height: 51px;
+    left: 0;
+    top: 2946px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30;
+    padding: 0px 100px 0px 100px;
+}
+
+#case{
+    position: static;
+    width: 200px;
+    height: 51px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 0px 7px 0px 7px;
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 10px;
 }
